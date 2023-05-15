@@ -12,10 +12,10 @@
         $len     = count($myarray);
         for ($i = 1 ; $i <= $len ; $i++) {
             if($i % 3 == 1)
-            echo "[ ";
+            	echo "[ ";
             echo $myarray[$i-1] . " ";
             if($i % 3 == 0 )
-            echo "]<br>";
+            	echo "]<br>";
         }
         
         
