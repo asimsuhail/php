@@ -7,10 +7,9 @@
 
 <body>
     
- 
 	<?php
-	    $indexArray = array(2,5,6,4,2,6); 
-        $str = " In index array values of array can be accessed with indexes starting from 0 to n.";
+	$indexArray = array(2,5,6,4,2,6); 
+        $str 	    = " In index array values of array can be accessed with indexes starting from 0 to n.";
         echo $str . '<br>';
         $len = count($indexArray);
         for($counter = 0; $counter < $len ; $counter++)
@@ -25,12 +24,8 @@
         echo $associativeArray['val2'] . "<br>";
         echo $associativeArray['val3'] . "<br>";
 
-        
-
-        
 	?>
-	
-	
+
 </body>
 
 </html>
