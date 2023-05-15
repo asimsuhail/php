@@ -9,7 +9,6 @@
     
 	<?php
 	
-	
 	 $fname = "Asim";
 	 $lname = "Suhail";
 	 $number1 = 33;
@@ -106,8 +105,7 @@
 	   echo "5 = 4 <br>";
 
 	?>
-	
-	
+		
 </body>
 
 </html>
