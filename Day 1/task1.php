@@ -9,6 +9,7 @@
 	<?php
 	
 	 $fname = "Asim";
+	
 	 $lname = "Suhail";
 	 echo "<i>Ouptut Like:". $fname ." ". $lname."</i>";
 	
