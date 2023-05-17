@@ -11,9 +11,9 @@
 	 $fname = "Asim";
 	 $lname = "Suhail";
 	 echo "<i>Ouptut Like:". $fname ." ". $lname."</i>";
-	 
+	
 	?>
 		
-</body>
+</body> 
 
 </html>
