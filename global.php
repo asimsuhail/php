@@ -10,7 +10,7 @@
 	type anything:<input type="text" name="text" />
 	<input type = "submit" value = "press NOw" />
 	<?php
-	    echo $_POST['text'];
+	echo $_POST['text'];
 	?>
 	
 	
