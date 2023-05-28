@@ -12,10 +12,9 @@
 </form>
 	<?php
 	   
-       echo $_POST['user'];
+        echo $_POST['user'];
 	?>
-	
-	
+		
 </body>
 
 </html>
