@@ -10,10 +10,11 @@ session_start();
 <body>
     <?php
     if ( isset($_POST['submit']) ) {
-        $day3_email = $_POST['email']; 
-        $day3_password = $_POST['password'];
-        $_SESSION['email'] = $day3_email;       // storing email in session variable
+        $day3_email           = $_POST['email']; 
+        $day3_password        = $_POST['password'];
+        $_SESSION['email']    = $day3_email;       // storing email in session variable
         $_SESSION['password'] = $day3_password;  //storing password in session variable
+        
         if ( $_SESSION['email'] == "asim@gmail.com" and $_SESSION['password'] == "1234" ) {
             // .. credentials check ... 
             ?>
