@@ -8,19 +8,16 @@
 <body>
     
 	<?php
-	    $number1 = 13;
+	$number1 = 13;
         $number2 = 13;
 
-        if($number1 == 13)
+        if( $number1 == 13 ) {
          echo "condition is true<br>";
-        else
+	} else {
          echo "condition is false<br>";
-
+	}
         
-
-
 	?>
-	
 	
 </body>
 
