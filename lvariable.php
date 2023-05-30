@@ -5,10 +5,9 @@
     <title>PHP </title>
 </head>
 
-<body>
-    
+<body>    
 	<?php
-	$text = "My Name is Asim Suhail <br>";
+	$text    = "My Name is Asim Suhail <br>";
 	$number1 = 12345;
 	$number2 = 56789;
 	
@@ -16,7 +15,6 @@
 	
 	echo $text . $num;
 	?>
-	
 	
 </body>
 
